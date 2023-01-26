@@ -1,0 +1,206 @@
+#home{
+    .homepage{
+        background-image:
+        linear-gradient(to bottom, rgba(110, 110, 110, 0.52), rgba(110, 110, 110, 0.52)),
+        url('https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        .container{
+            .text-form{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                min-height: 100vh;
+                .text{
+                    width: 50%;
+                    .home-text-h2{
+                        color: #fff;
+                        font-size: 40px;
+                        font-family: 'Mulish', sans-serif;
+                        
+                    }
+                    .home-text-p{
+                        color: #fff;
+                        font-family: 'Mulish', sans-serif;
+                        font-size: 17.6px;
+                        line-height: 20px;
+                        width: 70%;
+                        padding: 15px 0;
+                    }
+                    .home-btn{
+                        width: 250px;
+                        height: 50px;
+                        background-color: #7971EA;
+                        border: none;
+                        border-radius: 20px;
+                        color: #fff;
+                        font-family: 'Mulish', sans-serif;
+                        transition: all 0.4s;
+                        font-size: 12px;
+                        &:hover{
+                            background-color: #1c4b82;
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .form-home{
+                    width: 50%;
+                }
+                .form-home{
+                    display: flex;
+                    justify-content: center;
+                    align-items: start;
+                    flex-direction: column;
+                    border: 1px solid #fff;
+                    width: 480px;
+                    height: 350px;
+                    text-align: center;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    padding-left: 40px;
+                    padding-top: 10px;
+                    .home-form-h4{
+                        font-size: 24px;
+                        color: black;
+                        font-family: 'Mulish', sans-serif;
+                        margin: 10px 0;
+                    }
+                    .home-form-input{
+                        width: 90%;
+                        height: 45px;
+                        margin: 5px 0;
+                        border: 2px solid #ced4da;
+                        color: #ced4da;
+                        font-family: 'Mulish', sans-serif;
+                        border-radius: 5px;
+                    }
+                    .home-form-btn{
+                        width: 100px;
+                        height: 45px;
+                        border-radius: 17px;
+                        border: none;
+                        background-color: #7971EA;
+                        color: #fff;
+                        font-family: 'Mulish', sans-serif;
+                        margin-top: 10px;
+                        transition: all 0.5s;
+                        &:hover{
+                            background-color: #4f45da;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .ourPrograms{
+                .program-h1{
+                    text-align: center;
+                    font-size: 48px;
+                    color: black;
+                    font-family: 'Mulish', sans-serif;
+                    margin-top: 70px;
+                }
+                .program-p{
+                    font-size: 17.6px;
+                    color: #848280;
+                    font-family: 'Mulish', sans-serif;
+                    width: 700px;
+                    text-align: center;
+                    margin-left: 250px;
+                    margin-top: 20px;
+                }
+                .programs{
+                    margin-top: 30px;
+                    .program{
+                        display: flex;
+                        justify-content: space-between;
+                        .image{
+                            width: 50%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .program-text{
+                            width: 50%;
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            row-gap: 25px;
+                            padding-left: 10%;
+                            .program-text-h4{
+                                font-size: 32px;
+                                color: black;
+                                font-family: 'Mulish', sans-serif;
+                                line-height: 15px;
+                            }
+                            .program-text-p{
+                                font-size: 17.6px;
+                                font-family: 'Mulish', sans-serif;
+                                color: #848280;
+                                width: 80%;
+                            }
+                            .icons{
+                                display: flex;
+                                justify-content: start;
+                                align-items: center;
+                                width: 100%;
+                                font-size: 16.8px;
+                                font-family: 'Mulish', sans-serif;
+                                gap: 30px;
+                                color: #4f45da;
+                                font-weight: 700;
+                                .icon{
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1px solid #4f45da;
+                                    background-color: #4f45da;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .ourTeachers{
+                margin-top: 10%;
+                .teacher-h1{
+                    text-align: center;
+                    font-size: 48px;
+                    color: black;
+                    font-family: 'Mulish', sans-serif;
+                    margin-top: 70px;
+                }
+                .teacher-p{
+                    font-size: 17.6px;
+                    color: #848280;
+                    font-family: 'Mulish', sans-serif;
+                    width: 700px;
+                    text-align: center;
+                    margin-left: 250px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+            .footer{
+                margin: 100px 0;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #848280;
+                font-size: 16px;
+                .span{
+                    color: #1c4b82;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

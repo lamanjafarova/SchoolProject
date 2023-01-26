@@ -1,0 +1,96 @@
+.TeacherCards{
+    .sort-search{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+        .search-input{
+            border: none;
+            width: 35%;
+            height: 30px;
+            border-bottom: 1px solid #888a88;
+            border-radius: 15px;
+            padding-left: 20px;
+        }
+        .search-btn{
+            width: 200px;
+            height: 35px;
+            background-color: #7971EA;
+            color: #fff;
+            font-family: 'Mulish', sans-serif;
+            border: none;
+            border-radius: 25px;
+            transition: all 0.5s;
+            &:hover{
+                background-color: #4f45da;
+                cursor: pointer;
+            }
+        }
+    }
+    .teachers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        row-gap: 100px;
+        margin-top: 10%;
+        .teacher{
+            border: 2px solid #ced4da;
+            width: 350px;
+            height: 350px; 
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .card-img{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                position: absolute;
+                top: -20%;
+                left: 30%;
+            }
+            .card-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 70px;
+                .card-h4{
+                    font-size: 19.2px;
+                    font-family: 'Mulish', sans-serif;
+                    color: black;
+                    margin: 10px 0;
+                }
+                .card-h6{
+                    font-size: 17.6px;
+                    font-family: 'Mulish', sans-serif;
+                    margin: 10px 0;
+                    color: #ced4da;
+                }
+                .card-p{
+                    font-size: 17.6px;
+                    font-family: 'Mulish', sans-serif;
+                    margin: 10px 0;
+                    color: #888a88;
+                    width: 280px;
+                    text-align: center;
+                }
+                .add{
+                    i{
+                        color: red;
+                        font-size: 15px;
+                        cursor: pointer;
+                    }
+                }
+                .not-add{
+                    i{
+                        color: grey;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
